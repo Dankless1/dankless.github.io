@@ -1,0 +1,435 @@
+{
+  "cs_office": [
+  
+  ],
+  "de_inferno": [
+    {
+      "name": ["arch", "balchony"],
+      "weapon": "weapon_hegrenade",
+      "position": [2147.9504394531, 1225.9621582031, 172.18200683594],
+      "viewangles": [-1.7599810361862, -94.199775695801],
+      "grenade": {
+        "run": 2,
+        "recovery_yaw": -90,
+        "delay": 8,
+        "jump": true
+      }
+    },
+    {
+      "name": ["arch", "fd box close"],
+      "weapon": "weapon_hegrenade",
+      "position": [2085.1218261719, 1212.6983642578, 174.03125],
+      "viewangles": [-56.97998046875, -97.749984741211],
+      "grenade": {
+        "run": 12,
+        "recovery_yaw": -90,
+        "jump": true
+      }
+    },
+    {
+      "name": ["topmid", "2d"],
+      "description": "safe",
+      "weapon": "weapon_hegrenade",
+      "position": [1378.3616943359, 239.45361328125, 127.94055175781],
+      "viewangles": [-8.3599090576172, -40.604862213135],
+      "grenade": {
+        "run": 18,
+        "recovery_yaw": 90,
+        "delay": 2,
+        "jump": true
+      }
+    },
+    {
+      "name": ["topmid", "2d"],
+      "weapon": "weapon_molotov",
+      "position": [1332.8253173828, 258.99948120117, 132.11328125],
+      "viewangles": [-10.724877357483, -43.355041503906],
+      "grenade": {
+        "run": 18,
+        "recovery_yaw": 90,
+        "delay": 2,
+        "jump": true
+      }
+    },
+    {
+      "name": ["topmid", "2d"],
+      "weapon": "weapon_molotov",
+      "position": [1336.7482910156, 173.3023223877, 134.09623718262],
+      "viewangles": [-45.979656219482, 2.7351155281067],
+      "grenade": {
+        "run": 8,
+        "recovery_yaw": 90,
+        "jump": true
+      }
+    }
+  ],
+  "de_mirage": [
+    {
+      "name": ["oneway", "apartments (not a grenade)"],
+      "description": "awp only",
+      "weapon": "weapon_hegrenade",
+      "position": [-580.03125, -931.66534423828, -167.96875],
+      "viewangles": [-4.0698714256287, 108.95068359375],
+      "duck": true
+    },
+    {
+      "name": ["apartments (one way)", "chair (oneway)"],
+      "description": "low damage (awp only)",
+      "weapon": "weapon_hegrenade",
+      "position": [-1038.1140136719, 390.00198364258, -79.96875],
+      "viewangles": [4.0152292251587, -61.084560394287]
+    }
+  ],
+  "de_shortdust": [
+    {
+      "name": ["A", "fd"],
+      "weapon": "weapon_hegrenade",
+      "position": [-175.52220153809, 1039.7083740234, 32.03125],
+      "viewangles": [15.510231971741, -21.951313018799],
+      "grenade": {
+        "run": 3
+      }
+    },
+    {
+      "name": ["tunnel", "fd"],
+      "weapon": "weapon_molotov",
+      "position": [665.72967529297, 941.86437988281, 32.03125],
+      "viewangles": [-13.584948539734, -142.60137939453]
+    },
+    {
+      "name": ["A", "fd"],
+      "description": "covers 96%",
+      "weapon": "weapon_molotov",
+      "position": [-193.43843078613, 1084.3148193359, 32.03125],
+      "viewangles": [6.5997529029846, -37.936328887939],
+      "grenade": {
+        "run": 3
+      }
+    },
+    {
+      "name": ["tun", "fd"],
+      "description": "HIGH dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [648.8115234375, 901.06658935547, 32.03125],
+      "viewangles": [-13.905199050903, -155.93894958496],
+      "grenade": {
+        "run": 1,
+        "run_yaw": 180
+      }
+    },
+    {
+      "name": ["tun", "entry"],
+      "weapon": "weapon_hegrenade",
+      "position": [485.49490356445, 1183.6983642578, 32.03125],
+      "viewangles": [-9.8901243209839, 142.46131896973],
+      "grenade": {
+        "run": 1,
+        "recovery_yaw": -90
+      }
+    },
+    {
+      "name": ["ct", "tun"],
+      "weapon": "weapon_hegrenade",
+      "position": [-8.9086380004883, 817.41778564453, 11.113300323486],
+      "viewangles": [-6.590015411377, 71.396881103516],
+      "grenade": {
+        "recovery_yaw": -90
+      }
+    },
+    {
+      "name": ["ramp", "ct"],
+      "description": "almost lethal",
+      "weapon": "weapon_hegrenade",
+      "position": [-1257.6667480469, 960.51104736328, -172.35960388184],
+      "viewangles": [-19.195072174072, -15.309798240662],
+      "grenade": {
+        "run": 13,
+        "recovery_yaw": 90,
+        "delay": 12,
+        "jump": true
+      }
+    },
+    {
+      "name": ["tstart", "ct"],
+      "description": "good",
+      "weapon": "weapon_molotov",
+      "position": [-1279.9683837891, 963.00372314453, -167.01530456543],
+      "viewangles": [-26.785202026367, -15.41983795166],
+      "grenade": {
+        "run": 7
+      }
+    },
+    {
+      "name": ["ramp", "hide"],
+      "weapon": "weapon_hegrenade",
+      "position": [-186.67381286621, 614.0869140625, -10.725713729858],
+      "viewangles": [-16.445158004761, -40.69359588623],
+      "grenade": {
+        "run": 8,
+        "recovery_yaw": -90
+      }
+    },
+    {
+      "name": ["truck", "tun"],
+      "weapon": "weapon_hegrenade",
+      "position": [-136.02163696289, 541.61199951172, 1.130615234375],
+      "viewangles": [-16.665325164795, 14.356129646301],
+      "grenade": {
+        "run": 4
+      }
+    },
+    {
+      "name": ["ramp", "tun"],
+      "weapon": "weapon_hegrenade",
+      "position": [-908.10198974609, 713.92114257813, -175.2425994873],
+      "viewangles": [-7.7002205848694, 3.7362949848175],
+      "grenade": {
+        "run": 14,
+        "delay": 1,
+        "jump": true
+      }
+    },
+    {
+      "name": ["tunnel", "ct tun"],
+      "weapon": "weapon_hegrenade",
+      "position": [-111.91201782227, 1712.6440429688, 32.03125],
+      "viewangles": [-0.82511246204376, -45.958232879639],
+      "grenade": {
+        "run": 14,
+        "recovery_yaw": 90,
+        "delay": 15,
+        "jump": true
+      }
+    },
+    {
+      "name": ["A", "tun"],
+      "weapon": "weapon_hegrenade",
+      "position": [-102.18420410156, 1013.1753540039, 35.121780395508],
+      "viewangles": [6.5999665260315, 17.414577484131],
+      "grenade": {
+        "run": 8,
+        "run_yaw": 90,
+        "delay": 9,
+        "recovery_yaw": -90,
+        "jump": true
+      }
+    },
+    {
+      "name": ["A", "tunnels"],
+      "weapon": "weapon_hegrenade",
+      "position": [53.453952789307, 1054.1563720703, 32.03125],
+      "viewangles": [-6.6000361442566, 39.469615936279]
+    },
+    {
+      "name": ["truck", "tunnelsdeep"],
+      "weapon": "weapon_molotov",
+      "position": [-117.28075408936, 534.71441650391, 1.9768905639648],
+      "viewangles": [-13.695062637329, 25.579439163208]
+    },
+    {
+      "name": ["truck", "tunnels entry"],
+      "weapon": "weapon_molotov",
+      "position": [-117.29439544678, 534.74273681641, 1.97607421875],
+      "viewangles": [-15.235075950623, 20.574415206909]
+    }
+  ],
+  "de_stmarc": [
+    {
+      "name": ["truck", "ct truck"],
+      "weapon": "weapon_molotov",
+      "position": [-6842.9345703125, 6904.8764648438, 70.466354370117],
+      "viewangles": [-10.230014801025, 131.79095458984],
+      "duck": true
+    },
+    {
+      "name": ["truck", "van"],
+      "weapon": "weapon_hegrenade",
+      "position": [-6662.4326171875, 6962.052734375, 32.03125],
+      "viewangles": [-15.455053329468, -173.1304473877],
+      "grenade": {
+        "run": 6
+      }
+    },
+    {
+      "name": ["truck", "truckct"],
+      "description": "mega dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-6844.142578125, 6908.19921875, 70.466354370117],
+      "viewangles": [-11.33002948761, 152.49647521973],
+      "duck": true
+    },
+    {
+      "name": ["truckct", "fd"],
+      "description": "50dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-7413.4907226563, 7163.6708984375, 32.543762207031],
+      "viewangles": [-20.789987564087, -25.758602142334],
+      "grenade": {
+        "run": 7,
+        "run_yaw": 180
+      }
+    },
+    {
+      "name": ["ct", "fd"],
+      "weapon": "weapon_molotov",
+      "position": [-7406.0478515625, 7145.4809570313, 32.582885742188],
+      "viewangles": [-24.145214080811, -25.05259513855],
+      "grenade": {
+        "run": 11,
+        "run_yaw": 180
+      }
+    },
+    {
+      "name": ["ct", "plant\/fd"],
+      "weapon": "weapon_molotov",
+      "position": [-8438.87109375, 6640.7529296875, 56.460647583008],
+      "viewangles": [-18.645177841187, 7.9475769996643],
+      "grenade": {
+        "run": 3
+      }
+    },
+    {
+      "name": ["truck", "fd pickup"],
+      "description": "heavydmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-7500.6948242188, 7078.466796875, 31.413734436035],
+      "viewangles": [-17.875228881836, -2.092137336731],
+      "grenade": {
+        "run": 3
+      }
+    },
+    {
+      "name": ["semi", "fd pickup"],
+      "weapon": "weapon_molotov",
+      "position": [-7488.1342773438, 7077.9780273438, 31.192687988281],
+      "viewangles": [-17.875228881836, -2.092137336731],
+      "grenade": {
+        "run": 5,
+        "run_speed": true
+      }
+    }
+  ],
+  "de_vertigo": [
+    {
+      "name": ["b", "main behind box"],
+      "weapon": "weapon_molotov",
+      "position": [-2489.8388671875, 717.68701171875, 11744.03125],
+      "viewangles": [-19.415121078491, -46.160125732422],
+      "grenade": {
+        "run": 20,
+        "jump": true
+      }
+    },
+    {
+      "name": ["b", "main deep"],
+      "weapon": "weapon_hegrenade",
+      "position": [-2497.015625, 875.88562011719, 11744.03125],
+      "viewangles": [3.2448472976685, -50.285137176514],
+      "grenade": {
+        "run": 17,
+        "jump": true
+      }
+    },
+    {
+      "name": ["MAIN", "1w"],
+      "description": "LOW DMG",
+      "weapon": "weapon_hegrenade",
+      "position": [-1680.0212402344, -37.443809509277, 11776.03125],
+      "viewangles": [-0.59522217512131, 120.65871429443],
+      "grenade": {
+        "jump": true
+      }
+    },
+    {
+      "name": ["ct", "vent"],
+      "description": "24dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-879.23797607422, 886.11700439453, 11776.03125],
+      "viewangles": [-23.090265274048, -171.03067016602],
+      "grenade": {
+        "run": 3
+      }
+    },
+    {
+      "name": ["ct", "vent2"],
+      "description": "6+dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-1022.766418457, 863.24291992188, 11776.03125],
+      "viewangles": [-0.15524418652058, -170.91865539551],
+      "grenade": {
+        "jump": true
+      }
+    },
+    {
+      "name": ["backb", "vent"],
+      "description": "30dmg",
+      "weapon": "weapon_hegrenade",
+      "position": [-1473.9166259766, 978.48431396484, 11776.03125],
+      "viewangles": [1.3847826719284, -150.89743041992],
+      "grenade": {
+        "run": 10,
+        "run_yaw": 90,
+        "jump": true
+      }
+    },
+    {
+      "name": ["backb", "vent"],
+      "weapon": "weapon_molotov",
+      "position": [-1496.8680419922, 967.08093261719, 11776.03125],
+      "viewangles": [0.11969674378633, -131.95422363281],
+      "grenade": {
+        "run": 9,
+        "run_yaw": 90,
+        "jump": true
+      }
+    },
+    {
+      "name": ["grey", "3d"],
+      "description": "20s",
+      "weapon": "weapon_hegrenade",
+      "position": [-2641.8034667969, 449.75405883789, 11778.03125],
+      "viewangles": [6.9949026107788, 44.120697021484],
+      "grenade": {
+        "jump": true
+      }
+    },
+    {
+      "name": ["grey", "3d"],
+      "weapon": "weapon_molotov",
+      "position": [-2644.3312988281, 456.49078369141, 11778.03125],
+      "viewangles": [-0.15509253740311, 44.45064163208],
+      "grenade": {
+        "delay": 18,
+        "jump": true
+      }
+    },
+    {
+      "name": ["2D", "vent"],
+      "weapon": "weapon_hegrenade",
+      "position": [-2453.3762207031, 668.36993408203, 11744.03125],
+      "viewangles": [-23.364915847778, 8.37122631073],
+      "grenade": {
+        "run": 3,
+        "run_yaw": 180
+      }
+    },
+    {
+      "name": ["2d", "vent"],
+      "weapon": "weapon_molotov",
+      "position": [-2463.7536621094, 678.59014892578, 11744.03125],
+      "viewangles": [-20.229949951172, -24.683582305908],
+      "grenade": {
+        "run": 5
+      }
+    },
+    {
+      "name": ["ct", "ct"],
+      "weapon": "weapon_hegrenade",
+      "position": [-1343.9227294922, 192.68414306641, 11776.03125],
+      "viewangles": [-15.005157470703, 119.49707794189],
+      "grenade": {
+        "run": 5
+      }
+    }
+  ]
+}
